@@ -583,8 +583,9 @@ background-color: var(--color-social-hover) ;
 
 
 .subscribe {
-
-margin-left: 80px;
+/* margin-right: 0 auto; */
+/* margin-left: 80px; */
+margin-left: auto;
 }
 
 .subscribe-title {
@@ -599,12 +600,14 @@ margin-left: 80px;
 .subscribe-form {
 display: flex;
 justify-content: center;
+
 }
 
 .subscribe-input {
-    width: 264px;
-    height: 40px;
+    width: 230px;
+    /* height: 40px; */
     padding-left: 16px;
+    padding-right: 16px;
     font-size: 12px;
     background-color: transparent;
     color: var(--body-head-color);
@@ -619,7 +622,6 @@ justify-content: center;
 }
 
 .subscribe-btn {
-        width: 165px;
         margin-left: 24px;
         padding: 8px 24px;
         font-weight: 500;
@@ -794,6 +796,7 @@ overflow: hidden;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: var(--little-text);
 }
 
 
