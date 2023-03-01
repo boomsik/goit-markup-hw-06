@@ -901,7 +901,7 @@ transform: translate(-50%, -50%) scale(0);
 
     .first-box-form{
     width: 360px; 
-    height: 36.5px; 
+    height: 36px; 
     padding-left: 38px;
     font-size: 18px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -918,13 +918,46 @@ transform: translate(-50%, -50%) scale(0);
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(100%, 40%);
+    transform: translate(16px, 50%);
+    width: 18px;
+    height: 18px;
     fill: var(--big-text);
     }
 
-        .first-box:focus-within .first-box-icon {
-            fill: var(--button-web-color);
-        }
+    .second-box-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(19px, 35%);
+    width: 18px;
+    height: 24px;
+    fill: var(--big-text);
+    }
+
+
+    .third-box-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(19px, 35%);
+    width: 18px;
+    height: 24px;
+    fill: var(--big-text);
+    }
+
+    .first-box:focus-within .first-box-icon {
+        fill: var(--button-web-color);
+    }
+
+    .first-box:focus-within .second-box-icon {
+        fill: var(--button-web-color);
+    }
+
+     .first-box:focus-within .third-box-icon {
+         fill: var(--button-web-color);
+     }
+
+
 
     .input-box{
     margin-bottom: 16px;
