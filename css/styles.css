@@ -583,8 +583,6 @@ background-color: var(--color-social-hover) ;
 
 
 .subscribe {
-/* margin-right: 0 auto; */
-/* margin-left: 80px; */
 margin-left: auto;
 }
 
@@ -605,7 +603,6 @@ justify-content: center;
 
 .subscribe-input {
     width: 230px;
-    /* height: 40px; */
     padding-left: 16px;
     padding-right: 16px;
     font-size: 12px;
