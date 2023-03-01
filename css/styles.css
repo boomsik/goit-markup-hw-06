@@ -505,6 +505,7 @@ transition: color 250ms var(--transition-cubic-bezier),
 .end-container{
     display: flex;
     align-items: baseline;
+    width: 100%;
 }
 
 .end-box{
